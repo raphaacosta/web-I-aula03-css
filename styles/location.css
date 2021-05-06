@@ -1,0 +1,21 @@
+body {
+  background-color: #c1c1c1;
+  margin: 50px;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #004D00;
+}
+
+.container {
+  background-color: #E9FFEA;
+  width: 940px;
+  height: 100vh;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
