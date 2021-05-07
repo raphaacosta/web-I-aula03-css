@@ -1,3 +1,7 @@
+html {
+  overflow-y: scroll;
+}
+
 body {
   background-color: #c1c1c1;
   margin: 50px;
@@ -106,4 +110,35 @@ a {
 .corpo img.secundaria {
   float: right;
   width: 180px;
+}
+
+.menu h3{
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.menu h3::before {
+  content: url('/imagens/menu.png');
+  margin-right: 5px;
+}
+
+.menu li {
+  border-bottom: 1px solid #4EA947;
+}
+
+.menu li:first-of-type {
+  border-top: 1px solid #4EA947;
+}
+
+.menu li a {
+  padding: 20px;
+  display: block;
+  padding-left: 40px;
+  background: url('/imagens/seta.png') no-repeat 20px center;
+}
+
+.menu li a:hover {
+  background-color: #02D700;
 }
