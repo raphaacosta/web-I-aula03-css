@@ -23,17 +23,25 @@ a {
   flex-wrap: wrap;
 }
 
-.cabecalho, .rodape {
+.header, .rodape {
   width: 100%;
   display: flex;
   align-items: center;
 }
 
-.corpo {
-  width: 75%;
-  order: 2;
-  border-right: 1px dashed #000000;
-  padding: 10px;
+.content {
+  width: 100%;
+  /* order: 2; */
+  /* border-right: 1px dashed #000000; */
+  padding: 20px;
+}
+
+.list-container {
+  display: flex;
+  flex-direction: row;
+  /* padding: 20px; */
+  align-items: center;
+  justify-content: space-around;
 }
 
 .menu {
@@ -43,8 +51,7 @@ a {
   font-size: 110%;
 }
 
-.cabecalho {
-  order: 1;
+.header {
   border-bottom: 1px solid #000000;
   padding: 10px;
   margin-bottom: 20px;
@@ -57,18 +64,18 @@ a {
   margin-top: 20px;
 }
 
-.cabecalho img {
+.header img {
   width: 300px;
   margin-right: 10px;
 }
 
-.cabecalho h1 {
+.header h1 {
   font-size: 180%;
   text-transform: uppercase;
   color: #006A03;
 }
 
-.cabecalho h2 {
+.header h2 {
   font-size: 160%;
   color: #008903;
 }
@@ -84,32 +91,47 @@ a {
   color: #7E0000;
 }
 
-.corpo p {
+.content p {
   text-align: justify;
   line-height: 150%;
   text-indent: 3em;
 }
 
-.corpo h3 {
+.content h3 {
   text-transform: uppercase;
   font-size: 110%;
   font-weight: bold;
   border-bottom: 1px dotted #000000;
   margin-bottom: 10px;
   padding-left: 20px;
-  width: 50%;
+  width: 60%;
   background: url('/imagens/seta.png') no-repeat 0 center;
 }
 
-.corpo img {
-  float: left;
-  margin: 10px;
-  width: 230px;
+.content h4 {
+  font-size: 120%;
+  font-weight: bold;
 }
 
-.corpo img.secundaria {
+.content img {
+  float: left;
+  margin: 10px;
+  width: 50px;
+}
+
+.content img.secundaria {
   float: right;
   width: 180px;
+}
+
+.content span.text-emphasis {
+  /* text-emphasis: inherit; */
+  
+  /* color: #7E0000; */
+}
+
+.list-container ul{
+  list-style-type: disc;
 }
 
 .menu h3{
