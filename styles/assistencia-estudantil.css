@@ -136,9 +136,7 @@ a {
 }
 
 .content span.text-emphasis {
-  /* text-emphasis: inherit; */
-  
-  /* color: #7E0000; */
+  background-color: yellow;
 }
 
 .list-container ul{
