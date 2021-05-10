@@ -31,37 +31,20 @@ a {
 
 .content {
   width: 100%;
-  /* order: 2; */
-  /* border-right: 1px dashed #000000; */
   padding: 20px;
 }
 
 .list-container {
   display: flex;
   flex-direction: row;
-  /* padding: 20px; */
   align-items: center;
   justify-content: space-around;
-}
-
-.menu {
-  width: 25%;
-  order: 3;
-  padding: 5px;
-  font-size: 110%;
 }
 
 .header {
   border-bottom: 1px solid #000000;
   padding: 10px;
   margin-bottom: 20px;
-}
-
-.rodape {
-  order: 4;
-  border-top: 1px solid #000000;
-  padding: 30px;
-  margin-top: 20px;
 }
 
 .header img {
@@ -89,17 +72,6 @@ a {
 .header h2 {
   font-size: 160%;
   color: #008903;
-}
-
-.rodape img {
-  width: 100px;
-  border-radius: 50%;
-  margin-right: 20px;
-}
-
-.rodape .autor {
-  font-weight: bold;
-  color: #7E0000;
 }
 
 .content p {
@@ -141,35 +113,4 @@ a {
 
 .list-container ul{
   list-style-type: disc;
-}
-
-.menu h3{
-  padding: 5px;
-  font-weight: bold;
-  text-align: center;
-  margin-bottom: 10px;
-}
-
-.menu h3::before {
-  content: url('/imagens/menu.png');
-  margin-right: 5px;
-}
-
-.menu li {
-  border-bottom: 1px solid #4EA947;
-}
-
-.menu li:first-of-type {
-  border-top: 1px solid #4EA947;
-}
-
-.menu li a {
-  padding: 20px;
-  display: block;
-  padding-left: 40px;
-  background: url('/imagens/seta.png') no-repeat 20px center;
-}
-
-.menu li a:hover {
-  background-color: #02D700;
 }
